@@ -4,8 +4,8 @@ const Weather = require('../modules/weather');
 
 const Hapi = require('hapi');
 const server = new Hapi.Server({
-    host: 'localhost',
-    port: 3000
+    host: 'https://quiet-beach-78598.herokuapp.com/',
+    port: 8080
 });
 
 server.start()
